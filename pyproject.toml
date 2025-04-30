@@ -1,0 +1,19 @@
+[project]
+name = "portfolio-website-using-flask-and-python-master"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vyza Reddy",email = "vyza.18@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "pendulum (>=2.0.5)",
+    "gunicorn (>=23.0.0,<24.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
